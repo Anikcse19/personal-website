@@ -1,0 +1,123 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    
+    font-family: 'Montserrat', sans-serif;
+    
+}
+h1 h2 h3 h4 h5 h6{
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* header style start  */
+header{
+    background-image: url("images/bg3.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-container{
+    height: 100vh;
+}
+.navbar{
+    padding: 1% 10%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.navbar-icon{
+    color: white;
+}
+.nav-link{
+    color: white;
+    margin: 10px;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+.nav-link:hover{
+    color: black;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+    transform: scale(1.1);
+}
+.banner-container h1{
+    font-size: 3.5rem;
+    background-color: rgba(7, 101, 189, 0.7);
+    font-family: 'Handlee', cursive;
+    padding: 10px 20px;
+    border-radius: 60px;
+}
+/* header style end  */
+
+/* features style start  */
+
+#features{
+    padding: 5% 10%;
+    background-color: #e8ded2;
+}
+.feature-content{
+    border: 1px solid #ff02c0;
+    border-radius: 5%;
+    padding: 15px;
+    margin: 20px 0;
+    transition: .4s;
+}
+.feature-content:hover{
+   transform: scale(1.1);
+   box-shadow: 2px 6px 5px black;
+}
+.icon-style{
+    background-color: #bb0aac;
+    color: white;
+    padding: 15px;
+    margin: 5px 0;
+}
+/* features style end  */
+
+/* about-me style start  */
+#about-me{
+    background-color: #e8ded2 ;
+    padding: 4% 10%;
+}
+.section-title{
+
+    font-size: larger;
+}
+.section-title h1{
+    margin-bottom: 0;
+}
+ .hr-style{
+    border: 5px dotted black;
+     border-bottom: none;
+    width: 50px; 
+    margin-left: 48%;
+    background-color: white;
+    opacity: 1;
+} 
+.basic-desc p{
+    font-size: .9rem;
+    margin-bottom: 0;
+    font-weight: lighter;
+}
+.basic-desc a{
+    font-size: 1rem;
+    font-weight: lighter;
+    color: black;
+}
+.achieve-desc span{
+    font-weight: bolder;
+}
+#contact-me{
+    background-color: violet;
+    padding: 2% 10%;
+}
+.form-group label {
+    font-weight: bolder;
+
+}
+
+
+
+
+/* about-me style end  */
